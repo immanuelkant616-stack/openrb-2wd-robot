@@ -12,14 +12,28 @@ OpenRB-150 한 개와 XL330-M288-T 두 개를 연결해, 컴퓨터에서 입력�
 | 기능 | 현재 상태 | 근거 |
 | --- | --- | --- |
 | 보드 업로드와 한 모터 구동 | 동작 확인 | 직접 연결·업로드 후 회전 확인 |
-| 두 모터의 통신 주소 구분 | 확인 | [ID 1·2의 실제 응답 기록](logs/id-scan-observed.txt) |
+| 두 모터의 통신 주소 구분 | 확인 | [ID 1·2의 응답 기록](logs/id-scan-observed.txt) · [시리얼 모니터 사진](docs/media/wiring-two-motors-2.jpg) |
 | 두 모터의 개별 제어 | 동작 확인 | 각 모터의 작동을 직접 확인 |
 | 두 모터 함께 구동 | 동작 확인 | `b` 명령에 따른 두 모터 움직임 확인 |
 | 동작 후 자동 종료 | 동작 확인 | 별도 정지 입력 없이 멈추는 것 확인 |
 | `s` 명령으로 중간 중단 | 코드 구현 | 실제 중단 시험은 추가 기록 예정 |
 | 연속 회전·차체 주행·스마트폰 조종 | 다음 단계 | [개발 계획](docs/roadmap.md) |
 
-현재 결과는 작은 각도의 위치 이동 시험입니다. 실제 이동 각도의 수치, 반복 성공률, 차체 주행 성능은 아직 기록하지 않았습니다. 사진·영상은 [촬영 항목과 저장 위치](docs/media/README.md)에 따라 추가할 예정입니다.
+현재 결과는 작은 각도의 위치 이동 시험입니다. 실제 이동 각도의 수치, 반복 성공률, 차체 주행 성능은 아직 기록하지 않았습니다. 하드웨어 연결과 두 모터의 통신 확인 사진을 아래에 첨부했습니다. 구동 영상은 [사진·영상 기록 안내](docs/media/README.md)에 따라 추가할 예정입니다.
+
+## 실습 사진
+
+### 보드와 두 모터 연결
+
+OpenRB-150 한 개에 XL330-M288-T 모터 두 개를 연결하고 USB로 전원을 공급한 구성입니다.
+
+<img src="docs/media/wiring-two-motors-1.jpg" alt="USB로 연결된 OpenRB-150 한 개와 케이블로 연결된 XL330-M288-T 모터 두 개" width="640">
+
+### 두 모터 통신 확인
+
+시리얼 모니터에서 `Motor 1 OK / Model=1200`, `Motor 2 OK / Model=1200` 응답을 확인했습니다. 아래 사진은 두 모터의 통신 응답을 보여 줍니다.
+
+<img src="docs/media/wiring-two-motors-2.jpg" alt="Arduino 시리얼 모니터에 표시된 Motor 1 OK 및 Motor 2 OK와 모델 번호 1200" width="640">
 
 ## 사용 장비와 연결
 
@@ -85,7 +99,7 @@ READY | p: check IDs | 1: motor 1 | 2: motor 2 | b: both | s: stop
 | [docs/troubleshooting.md](docs/troubleshooting.md) | 발생한 오류와 해결 과정 |
 | [docs/test-results.md](docs/test-results.md) | 확인된 결과와 추가 시험 항목 |
 | [docs/verification.md](docs/verification.md) | 코드 보존·컴파일 기록과 검증 범위 |
-| [docs/media/](docs/media/) | 사진·영상 추가 위치와 촬영 안내 |
+| [docs/media/](docs/media/) | 연결·통신 확인 사진과 영상 추가 안내 |
 | [logs/](logs/) | 실제 출력 기록과 다음 시험용 기록 양식 |
 | [docs/roadmap.md](docs/roadmap.md) | 연속 회전부터 스마트폰 조종까지의 계획 |
 
