@@ -23,7 +23,9 @@ OpenRB-150 한 개와 XL330-M288-T 두 개를 연결해, 컴퓨터에서 입력�
 
 ## 실습 영상
 
-[▶ 모터 제어 실습 영상 보기 — 약 18초 · 4.37MB](docs/media/motor-control-demo.mp4)
+[▶ 모터 제어 실습 영상 다운로드 — 약 18초 · 4.37MB](https://github.com/immanuelkant616-stack/openrb-2wd-robot/raw/refs/heads/main/docs/media/motor-control-demo.mp4)
+
+영상 파일을 내려받은 뒤 소리를 켜서 재생해 주세요.
 
 시리얼 모니터와 연결한 두 모터를 촬영한 실습 기록입니다. 전체 분량을 유지하면서 720p로 압축했고, 작게 녹음된 원음의 전체 음량을 보정했습니다. 주변 소리도 함께 커질 수 있습니다. 회전각·반복 정확도와 중단 명령의 결과는 별도 시험으로 기록할 예정입니다.
 
