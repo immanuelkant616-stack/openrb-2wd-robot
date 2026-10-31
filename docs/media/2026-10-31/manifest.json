@@ -1,0 +1,204 @@
+{
+  "record_date": "2026-10-31",
+  "editing": "Full clips retained; H264 720p 30fps AAC128k; original audio loudness normalized",
+  "clips": [
+    {
+      "original": "1000105101.mp4",
+      "filename": "01-id1-positive.mp4",
+      "original_bytes": 19579722,
+      "bytes": 2826215,
+      "duration": 11.202,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "1",
+      "original_sha256": "82bead13e6e38ece8bc800c9fb1126e9a5ffdcf98fd5438ba9c03d8b15fde290",
+      "sha256": "c7f090df559c34750f692858c55eb6c8dcdae99e89f5a241cbfc43ea4bae37ae"
+    },
+    {
+      "original": "1000105102.mp4",
+      "filename": "02-id2-positive.mp4",
+      "original_bytes": 14939062,
+      "bytes": 2232064,
+      "duration": 8.602,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "2",
+      "original_sha256": "4f822b5cce50369db9665bd75a3f59c8822628f51c4c79f1b8839834bc9f1f7f",
+      "sha256": "d53f11cdc9fc456e20212b12cfa316d6f717ac19fd5e2fc3c22a427eaac33acb"
+    },
+    {
+      "original": "1000105103.mp4",
+      "filename": "03-id1-negative.mp4",
+      "original_bytes": 12233172,
+      "bytes": 1607707,
+      "duration": 7.0,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "3",
+      "original_sha256": "171887e1c2c385b5ec22ca87d60bebaba181542a4297322a94bdc07dab3d78fb",
+      "sha256": "4cff68a20f9af2f6a248739c5efc6930bb1d99824f60713db93a1560c79bd420"
+    },
+    {
+      "original": "1000105104.mp4",
+      "filename": "04-id2-negative.mp4",
+      "original_bytes": 13976022,
+      "bytes": 1641734,
+      "duration": 7.933333,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "4",
+      "original_sha256": "91f3215e7277f20d9a64da386f9fde9a5e3626d6ba5311ada03af9a4ec64f7cf",
+      "sha256": "328257b8391d8c63ede8f99152a0eb1e7b3c2a10f90903d27e32bb12a9f35c37"
+    },
+    {
+      "original": "1000105105.mp4",
+      "filename": "05-id-check.mp4",
+      "original_bytes": 6673887,
+      "bytes": 869991,
+      "duration": 3.8,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "p",
+      "original_sha256": "27f6d3659c9e77535ae749be089f5bc9732aad922c9a57e60706bcdfb8828dde",
+      "sha256": "245d1b992f9c416ac7244c14e24e28a60373802babf8d43339767146be0ace96"
+    },
+    {
+      "original": "1000105106.mp4",
+      "filename": "06-forward-command.mp4",
+      "original_bytes": 11604770,
+      "bytes": 1397165,
+      "duration": 6.5,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "w",
+      "original_sha256": "c297308e301b9fd0f5fddf23a80c44313b55c7575c118e4b77ee480b648c3501",
+      "sha256": "2e652d255709006a6d657dfa198be099a76c64cac46ac32644199a079a12dd9b"
+    },
+    {
+      "original": "1000105107.mp4",
+      "filename": "07-reverse-command.mp4",
+      "original_bytes": 9826364,
+      "bytes": 1068614,
+      "duration": 5.5,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "x",
+      "original_sha256": "115612f75f100ad8e419050779d51a6830e1fc2fb4ce3ef8b01c0ff578d77bd3",
+      "sha256": "2d3589acf169bfd06a9ff298ecfb42e4b9d8744e39a5cf95d8ef27b5bc1d0789"
+    },
+    {
+      "original": "1000105108.mp4",
+      "filename": "08-left-command.mp4",
+      "original_bytes": 9984310,
+      "bytes": 1166138,
+      "duration": 5.7,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "a",
+      "original_sha256": "566d9542e6a767e5ee404935d1e8e96c1c1ac951f9028fe9a1168596423828c0",
+      "sha256": "3b89f0ac784b0a483e38c9181462f1b95abdec19375388a80c5e54e1b8ba72ed"
+    },
+    {
+      "original": "1000105109.mp4",
+      "filename": "09-right-command.mp4",
+      "original_bytes": 8965710,
+      "bytes": 1132140,
+      "duration": 5.1,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ],
+      "command": "d",
+      "original_sha256": "7b8d42949b8d3dc8d33f8d2464ca8bc3ee66ee207f63fe35cc493ee74658ac8a",
+      "sha256": "1ee2c01d0c4b9d6e1ebd99bcf8b679a2139b8af038e16fd2fdd8e001845de6d6"
+    }
+  ]
+}
