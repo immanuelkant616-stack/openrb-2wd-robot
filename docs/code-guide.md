@@ -1,5 +1,7 @@
 # 두 모터 코드 설명
 
+> 이 문서는 초기 위치 제어 스케치를 설명합니다. 2026-10-31에 추가한 속도 제어·자동차 명령 시험은 [별도 실행 안내](velocity-control.md)와 [실습 결과](2026-10-31-velocity-test.md)를 참고하세요.
+
 [README로 돌아가기](../README.md)
 
 대상은 [two_motor_usb_test.ino](../firmware/two_motor_usb_test/two_motor_usb_test.ino)다. 원래 구동 코드의 동작을 유지했으며, 이번 문서 정리에서 기능을 추가하지 않았다.
@@ -53,4 +55,5 @@ runTest(true, true);   // b: 두 모터 선택
 - `BUS_WATCHDOG = 0`은 해당 통신 감시 기능을 비활성화하는 설정이다. 통신 두절 시 자동 정지 기능을 완성했다고 설명하지 않는다.
 
 위 항목은 다음 개선 때 비교할 기준이다. 현재 실제로 확인한 동작과 아직 확인하지 않은 항목은 [시험 결과](test-results.md)에 구분했다.
+
 
